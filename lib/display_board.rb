@@ -6,9 +6,9 @@ def display_board(board)
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
-  puts " #{board[7]} | #{board[8]} | #{board[9]}  "
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-board = [" "," "," "," "," "," "," "," "," "]
-#display_board(["O", "X", " ", " ", "X", " ", "X", "O", " "])
-display_board(board)
+# board = [" "," "," "," "," "," "," "," "," "]
+# #display_board(["O", "X", " ", " ", "X", " ", "X", "O", " "])
+# display_board(board)
